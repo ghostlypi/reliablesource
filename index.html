@@ -4,6 +4,13 @@
   </head>
   <body>
   <canvas id="myCanvas" width="1000" height="100" style="border:1px solid #000000;">
+    var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+ctx.beginPath();
+ctx.rect(2000, 2000, 2000, 2000);
+ctx.fillStyle = "red";
+ctx.fill();
 </canvas>
   </body>
 </html>
